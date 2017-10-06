@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+body{
+    font-family: "Lato";
+    font-weight:normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    border-radius:5px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    background-color:#FF009D;
+    width:900px;
+    margin:auto; 
+}
+
+.flex-leftside {
+    padding:20px 10px;
+    margin: 10px;
+    flex-grow:1; 
+    flex-basis:100px;
+    text-align:center;
+}
+
+.flex-rightside {
+    flex-basis:300px;
+    flex-grow:2; 
+    margin: 10px;
+}
+
+.flex-leftside img {
+    max-width:150px;
+    border-radius:50%;
+    display:block;
+    margin:5px auto;
+    border: 3px solid #fff;
+}
+
+td {
+    vertical-align:top;
+    padding:10px;
+}
+
+.inner-div {
+    padding:5px;
+    border-left:2px solid #C4C1C1;
+}
+
+.bio{
+    padding-left:10px;
+}
+
+a {
+    color:#69BAF0;
+    text-decoration:none;
+}
+
+a:hover, a:active, a:focus {
+    color:#25810E;
+    text-decoration:underline;
+}
+
+hr{
+    color:#C4C1C1;
+    margin:10px auto;
+    width:80%;
+}
+
+form{
+    max-width:300px;
+    margin:10px auto;
+}
+
+input, textarea {
+    -webkit-appearance: none;
+    width:100%;
+    border:none;
+    border-bottom:1px solid #C4C1C1;
+    font-size:14px;
+    margin:2px 0px;
+    padding:5px;
+}
+
+input {
+    min-height:40px;
+}
+
+select{
+    width:100%;
+    min-height:40px;
+}
